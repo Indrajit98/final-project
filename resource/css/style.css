@@ -396,6 +396,7 @@ ul li:last-child{
     text-align: center;
     padding: .5rem .5rem;
     margin: 5rem 2rem 1rem 2rem;
+    border-radius: .3rem;
 
 }
 .items-box .button:hover{
@@ -414,17 +415,26 @@ ul li:last-child{
     text-transform: capitalize;
 }
 
-
+/* city box */
 .right-side{
     flex: 0 0 10vw;
 }
+.right-side .shop-type{
+    margin-top: 9rem;
+    font-size: 2rem;
+}
+.right-side .shop-type select{
+    font-size: 2rem;
+    padding: .2rem 4.4rem;
+}
 .division-box{
-    margin-top: 12rem;
+    margin-top: 11rem;
     width: 20rem;
     box-shadow: 0.2rem 0.2rem 0.2rem #999, 
     -0.2rem -0.2rem 0.2rem #e0dfdfab;
     padding: 1rem 0 1rem 2rem;
     font-size: 1.6rem;
+    border-radius: .5rem;
 }
 .division-name li{
     padding-bottom: 1rem;
@@ -463,7 +473,7 @@ ul li:last-child{
 .login-area .email label ,
 .login-area .password label{
     display: block;
-    text-align: center;
+    text-align: start;
     padding: 2rem 0 1rem 0;
     color: #777;
     font-weight: 600;
@@ -471,7 +481,7 @@ ul li:last-child{
 .login-row .login-area .email input,
 .login-row .login-area .password input{
    display: block;
-   width: 90%;
+   width: 100%;
    height: 3rem;
    margin: 0 auto;
    font-size: 1.5rem;
@@ -483,7 +493,6 @@ ul li:last-child{
 .login-row .password a{
     font-size: 1.5rem;
     float: right;
-    padding-right: 4rem;
     padding-top: 1rem;
     display: block;
     text-decoration: none;
@@ -517,7 +526,7 @@ ul li:last-child{
 .signup{
     width: 60%;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-bottom: 3rem;
     box-shadow: .2rem .2rem .2rem #999,
                 -.2rem -.2rem .2rem #eceaea;
@@ -613,6 +622,7 @@ form{
     -0.2rem -0.2rem 0.2rem #e0dfdfab;
     margin-top: 3rem;
     padding: 2rem;
+    border-radius: .5rem;
 }
 .shop-box:hover{
     box-shadow: -0.2rem -0.2rem 0.2rem #999, 
@@ -629,8 +639,9 @@ form{
 }
 /* right-side */
 .box-margin{
-    margin-top: 10rem;
+    margin-top: 1rem;
 }
+
 /* pagination */
 .pagination{
     display: flex;
@@ -735,7 +746,6 @@ form{
 }
 .my-content a{
     font-size: 1.5rem;
-    text-transform: inherit;
     border: 0;
     padding: 1rem 2rem;
     background: #fff;
@@ -747,9 +757,113 @@ form{
     color: #fff;
     box-shadow: none;
 }
+/* account-section start*/
+/*=============================*/
+/* upload-section start */
+.upload-section .form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    box-shadow: .2rem .2rem .2rem #999,
+                -.1em -.1rem .2rem #dddcdc;
+    margin: 0 auto;
+    padding: 4rem;
+    margin-bottom: 4rem;
+}
+.form-title{
+    margin: 0 5rem;
+}
+.form-title h4{
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    border-bottom: .1rem solid #a3a3a3;
+}
+.form-main form{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0 0 1rem;
+}
+.shop-form{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: #333;
+    margin-bottom:.5rem;
+}
+.shop label{
+    margin-bottom: .2rem;
+}
+.shop input{
+    padding: .2rem .5rem;
+    font-size: 1.8rem;
+    color: #333;
+    border: .1rem solid #999;
+    border-radius: .3rem;
+}
+.shop-type{
+    margin-bottom: .5rem;
+}
+.shop-type select{
+    font-size: 1.5rem;
+    padding: .2rem 1.5rem;
+    border: .1rem solid #999;
+    border-radius: .3rem;
+}
+.image-upload{
+    margin-bottom: 1rem;
+}
+.image-upload input{
+    font-size: 1.5rem;
+}
+.select-division select{
+    font-size: 1.5rem;
+    padding: .2rem 1.5rem;
+    border: .1rem solid #999;
+    border-radius: .3rem;
+}
+.description textarea{
+    width: 100%;
+    height: 20rem;
+    border: .1rem solid #999;
+    border-radius: .3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #333;
+}
+.form-main .button{
+    margin: 0;
+    box-shadow: none;
+    margin: 2rem 0 .5rem 0;
+    
+}
+.form-main button{
+    font-size: 1.8rem;
+    padding: .5rem 2rem;
+    border: .1rem solid #777;
+    background: #fff;
+    border-radius: .3rem;
+}
+.form-main button:hover{
+    background: #004f4e;
+    color: #fff;
+    border: none;
+}
 
 
 
+
+
+
+
+/* upload section End*/
+/*=============================*/
 /*footer section start*/
 .footer-section{
     background: #004f4e;
@@ -762,3 +876,4 @@ form{
     padding: 2rem 0;
     color: #fff;
 }
+/*footer section end*/

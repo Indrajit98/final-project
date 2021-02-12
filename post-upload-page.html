@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="resource/css/style.css">
     <link rel="stylesheet" href="resource/css/responsive.css">
 </head>
+
 <body>
     <nav>
         <div class="row">
@@ -25,7 +27,7 @@
             </a>
             <ul class="main-nav">
                 <li><a href="index.html">home</a></li>
-                <li class="active"><a href="login.html">my account</a></li>
+                <li class="active"><a href="account.html">my account</a></li>
             </ul>
             <!--////////////////////////////////////////////////////////
                 <div class="mobile-menu">
@@ -48,5 +50,70 @@
 
         </div>
     </nav>
+    <section class="upload-section">
+        <div class="row">
+            <div class="form">
+                <div class="form-title">
+                    <h4>fill in the post details</h4>
+                </div>
+                <div class="form-main">
+                    <form action="#" method="POST">
+                        <div class="shop-form">
+                            <div class="shop name">
+                                <label for="name">Enter your shop name</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="shop address">
+                                <label for="address">Enter your shop address</label>
+                                <input type="text" id="address">
+                            </div>
+                            <div class="shop-type">
+                                <p>Shop type</p>
+                                <select>
+                                    <option value="mobile"> Mobile</option>
+                                    <option value="electronic"> Electronic</option>
+                                    <option value="shoes"> Shoes</option>
+                                    <option value="vehincles"> Vehincles</option>
+                                    <option value="cloth"> Cloth</option>
+                                    <option value="food"> Food</option>
+                                </select>
+                            </div>
+
+                            <div class="image-upload">
+                                <p>add a upload photo</p>
+                                <input type="file">
+                            </div>
+                            <div class="select-division">
+                                <p>Your city</p>
+                                <select>
+                                    <option value="dhaka"> Daka</option>
+                                    <option value="chattogram"> Chattogram</option>
+                                    <option value="sylhet"> Sylhet</option>
+                                    <option value="khulna"> Khulna</option>
+                                    <option value="barishal"> Barishal</option>
+                                    <option value="rajshahi"> Rajshahi</option>
+                                    <option value="rangpur"> Rangpur</option>
+                                    <option value="mymensingh"> Mymensingh</option>
+                                </select>
+                            </div>
+
+                            <div class="description">
+                                <div class="label">
+                                    <label for="des">Description</label>
+                                </div>
+                                <textarea name="description" id="des"></textarea>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button>Post add</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
