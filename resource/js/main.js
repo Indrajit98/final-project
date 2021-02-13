@@ -2,7 +2,6 @@
 //form control start
 const form = document.getElementById('form');
 const username = document.getElementById('username');
-const last_name = document.getElementById('last_name');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const confirm = document.getElementById('confirm');

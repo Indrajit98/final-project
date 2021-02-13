@@ -57,15 +57,17 @@
                     <h4>fill in the post details</h4>
                 </div>
                 <div class="form-main">
-                    <form action="#" method="POST">
+                    <form action="#"  method="POST" id="form">
                         <div class="shop-form">
-                            <div class="shop name">
+                            <div class="shop">
                                 <label for="name">Enter your shop name</label>
                                 <input type="text" id="name">
+                                <small>Error message</small>
                             </div>
-                            <div class="shop address">
+                            <div class="shop">
                                 <label for="address">Enter your shop address</label>
                                 <input type="text" id="address">
+                                <small>Error message</small>
                             </div>
                             <div class="shop-type">
                                 <p>Shop type</p>
@@ -79,9 +81,10 @@
                                 </select>
                             </div>
 
-                            <div class="image-upload">
+                            <div class="image-upload ">
                                 <p>add a upload photo</p>
-                                <input type="file">
+                                <input type="file" id="image">
+                                <small>Error message</small>
                             </div>
                             <div class="select-division">
                                 <p>Your city</p>
@@ -94,18 +97,19 @@
                                     <option value="rajshahi"> Rajshahi</option>
                                     <option value="rangpur"> Rangpur</option>
                                     <option value="mymensingh"> Mymensingh</option>
-                                </select>
+                                </select>      
                             </div>
 
                             <div class="description">
                                 <div class="label">
-                                    <label for="des">Description</label>
+                                    <label for="description">Description</label>
                                 </div>
-                                <textarea name="description" id="des"></textarea>
+                                <textarea name="description" id="description"></textarea>
+                                <small>Error message</small>
                             </div>
                         </div>
                         <div class="button">
-                            <button>Post add</button>
+                            <button type="submit">Post add</button>
                         </div>
 
                     </form>
@@ -114,6 +118,7 @@
             </div>
         </div>
     </section>
+    <script src="resource/js/upload-file-validation.js"></script>
 </body>
 
 </html>

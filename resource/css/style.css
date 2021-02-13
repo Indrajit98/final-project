@@ -806,6 +806,25 @@ form{
     border: .1rem solid #999;
     border-radius: .3rem;
 }
+.shop.success input{
+    border-color: #2ecc71;
+}
+.shop.error input{
+    border-color: #8b1111;
+}
+#image{
+    border: none;
+}
+.shop small,
+.image-upload small,
+.description small{
+    color: #8b1111;
+    visibility: hidden; 
+}
+.shop.error small{
+    visibility: visible;
+}
+
 .shop-type{
     margin-bottom: .5rem;
 }
