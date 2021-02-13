@@ -91,5 +91,4 @@ function checkPasswordsMatch(input1,input2){
  checkLength (password, 8, 25);
  checkEmail(email);
  checkPasswordsMatch(password,confirm);
-
 }); 
