@@ -92,3 +92,11 @@ function checkPasswordsMatch(input1,input2){
  checkEmail(email);
  checkPasswordsMatch(password,confirm);
 }); 
+
+////////////// moblie menu
+function openNav(){
+    document.getElementById("myNav").style.width = "100%"
+}
+function closeNav(){
+    document.getElementById("myNav").style.width = "0%"
+}
