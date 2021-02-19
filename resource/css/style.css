@@ -214,6 +214,7 @@ ul li:last-child{
     float: right;
     padding-right: 2.5rem;
     display: none;
+    color: #fff;
 }
 .mobile-menu span{
     cursor: pointer;
