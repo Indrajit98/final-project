@@ -31,3 +31,9 @@ form.addEventListener('submit',function(e){
     e.preventDefault();
   checkRequired([name,address,image])
 })
+function openNav(){
+    document.getElementById("myNav").style.width = "100%"
+}
+function closeNav(){
+    document.getElementById("myNav").style.width = "0%"
+}
